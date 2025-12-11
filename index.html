@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Quiz Application</title>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="startButton">
+        <button class="startBtn">Start Quiz</button>
+    </div> 
+    
+    <div class="infoBox"> 
+        <div class="info-box-title">Some Rules of this Quiz</div>   
+        <div class="info-list">   
+        <div class="info-row"> 1.You will have only 15 seconds per each question. </div>  
+        <div class="info-row"> 2.Once you select your answer, it can't be undone. </div> 
+        <div class="info-row"> 3.You can't select any option once time goes off. </div> 
+        <div class="info-row"> 4.You Can't exit from the Quiz while you're playing. </div> 
+        <div class="info-row"> 5.You'll get points on the basis of your correct answers. </div>   
+        </div>  
+        
+        <div class="footer">
+            <button class="exitBtn">Exit</button>  
+            <button class="ContinueBtn">Continue</button>
+        </div>
+    </div>
+
+       <div class="Quiz-box">
+             <div class="quiz-header-section">  
+                <div class="quiz-titleContainer">  
+                    <span class="quiz-title">Awesome Quiz Application</span> 
+                    <div class="timeLineContainer"> 
+                        <span class="time-line-title">Time Off</span>  
+                        <div class="timeline">00</div>
+                    </div>
+                </div>   
+                <div class="progressBar"></div>
+             </div>  
+             <div class="quiz-content-section"> 
+                <div class="questionText"> 
+                    <!-- 1. Which type of language is JavaScript? -->
+                </div> 
+                
+                <div class="option-list-container">  
+                    <div class="options"></div> 
+                    <div class="options"></div> 
+                    <div class="options"></div> 
+                    <div class="options"></div>
+                </div>  
+                
+                <div class="quiz-footer-section"> 
+                    <span class="quix-footer-text"><span class="highlighted-text">1</span> of<span class="highlighted-text">10</span> Questions</span>
+                    <button class="nextBtn">Next Que</button>
+                </div>
+         </div>  
+
+
+<script src="script.js"></script> 
+<script src="Question.js"></script>
+</body>
+</html>
