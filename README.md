@@ -1,55 +1,56 @@
 
-🎯 Interactive Quiz Application
+🎯 Interactive Quiz Application  
 
-An engaging and responsive Quiz Application built using HTML, CSS, and JavaScript.
-It features real-time validation, a countdown timer, smooth UI interactions, and a clean user experience.
+A simple, interactive, and fully responsive Quiz Application built using HTML, CSS, and JavaScript.
+It includes a countdown timer, real-time validation, visual feedback, and a clean user-friendly interface.
 
-🔥 Features
+🌟 Features
 
 ⏳ 15-second countdown timer for each question
-
-❓ 10 MCQs with automatic validation
-
-✅❌ Instant visual feedback: green for correct, red for wrong answers
-
-🚫 Options disable automatically after selection
-
-📈 Smooth progress bar to track quiz flow
-
-📝 Final result screen showing score and percentage
-
-📱 Fully responsive design for all devices
-
-⚡ Beginner-friendly & well-structured codebase
-
-📚 What I Learned
-
-Handling user interactions and click events
-
-Using setInterval() and setTimeout() for managing timers
-
-Dynamically updating the DOM for questions, options, and score
-
-Writing clean, modular, and organized frontend code
-
-Designing a simple, smooth, and intuitive UI/UX
+❓ 10 MCQs with auto-validation
+✅❌ Instant visual feedback for correct & wrong answers
+🚫 Automatic option disabling after selecting an answer
+📈 Smooth progress bar for tracking quiz flow
+📝 Final result screen showing score & percentage
+📱 Fully responsive design
+⚡ Lightweight, fast, and beginner-friendly code structure
 
 🛠️ Tech Stack
 
-HTML5
+HTML5 — Structure
 
-CSS3
+CSS3 — Layout & Styling
 
-JavaScript (ES6)
+JavaScript (ES6) — Logic & Interactions
 
-🌐 Live Demo
+🚀 Live Demo
 
-(Add your GitHub Pages link here after deployment)
+🔗 View Project on GitHub Pages
+https://priyamvada554.github.io/Quiz_App/
+
+📚 What I Learned
+
+Handling user interactions & click events
+
+Using setInterval() for managing the timer
+
+Dynamic DOM updates for questions, options & score
+
+Writing clean, modular JavaScript code
+
+Designing an intuitive UI/UX
 
 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-📄 License
+📜 License
 
-This project is open-source and available under the MIT License.
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+💡 About
+
+Developed by Priyamvada Kumari
+🎓 B.Tech CSE | 💻 Passionate Frontend Developer
+🔗 LinkedIn Profile:
+https://www.linkedin.com/in/priyambada-kumari-a6b839316
